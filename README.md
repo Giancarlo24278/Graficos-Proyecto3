@@ -5,6 +5,17 @@ Contribución: diseño de la escena y nave, integración del renderer, efectos y
 
 Exploración espacial en C++17 con un rasterizador propio: matrices modelo/vista/proyección, recorte, triángulos y profundidad en CPU. SDL2 solo gestiona ventana, entrada y presentación del framebuffer.
 
+## Imagenes 
+<img width="2416" height="1249" alt="imagen" src="https://github.com/user-attachments/assets/6f034149-a866-44d1-bd46-3961337504f9" />
+
+<img width="2418" height="1342" alt="imagen" src="https://github.com/user-attachments/assets/09b00886-dddb-4ccc-9b57-09fa66595fec" />
+
+<img width="2443" height="1158" alt="imagen" src="https://github.com/user-attachments/assets/6ea9e26f-0efc-4b1f-88c4-64d605f98da7" />
+
+## Video de demostración
+
+https://youtu.be/TeSCawjDBeY
+
 ## Ejecutar
 
 Requisitos: compilador C++17, CMake 3.16+ y **SDL2** de desarrollo compatible con el compilador. Desde la raíz del repositorio:
@@ -47,11 +58,6 @@ Si CMake no encuentra SDL2, agrega a la configuración `-DSDL2_DIR="directorio q
 
 La distancia llega a 0 km al tocar la superficie. Los faros iluminan el lado nocturno y chocar con el sol provoca una reaparición tras 3 segundos. Pruebas: `ctest --test-dir build --output-on-failure -C Release`.
 
-## Video de demostración
-
-**Pendiente de agregar el enlace antes de entregar. Es un requisito obligatorio.**
-
-Debe mostrar vuelo espacial → acercamiento → vuelta alrededor de un planeta → alejamiento. Incluir los efectos, la choza y los contadores de triángulos ayuda a demostrar las características solicitadas.
 
 ## Recursos y asistencia
 
