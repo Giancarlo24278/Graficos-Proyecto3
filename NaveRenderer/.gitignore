@@ -7,5 +7,3 @@ __pycache__/
 # Configuracion y herramientas locales de este equipo
 build-portable/
 CMakeUserPresets.json
-compilar.bat
-abrir_nave.bat
